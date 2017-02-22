@@ -1,4 +1,6 @@
 body {
+  background-image: url("images/wood.jpg");
+  background-attachment: fixed;
   background-color: #d9d9d9;
 }
 h1 {
@@ -7,6 +9,10 @@ h1 {
 }
 h3 {
   text-align: center;
+  text-shadow: 5px 2px 12px #09f;
+}
+strong {
+  text-shadow: 5px 2px 4px grey;
 }
 span {
   color: #06c;
@@ -17,6 +23,8 @@ div {
   background-color: white;
   font-family: "Times New Roman", Times, serif;
   font-size: 115%;
+  border: 3px solid gray;
+  border-style: groove;
 }
 img {
   vertical-align: middle;
