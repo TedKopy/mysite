@@ -19,7 +19,9 @@ div {
   font-size: 115%;
 }
 img {
-  margin: 10px 570px auto;
+  vertical-align: middle;
+  margin: auto;
+  display: block;
 }
 #warning {
   color: red;
