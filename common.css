@@ -1,0 +1,26 @@
+body {
+  background-color: #d9d9d9;
+}
+h1 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+span {
+  color: #06c;
+}
+div {
+  margin: 30px 40px 10px 40px;
+  padding: 20px 20px 20px 20px;
+  background-color: white;
+}
+img {
+  margin: 10px 570px auto;
+}
+#warning {
+  color: red;
+  background-color: black;
+}
+.first{font-size: 200%;}
+.second{font-size: 300%;}
