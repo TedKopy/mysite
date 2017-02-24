@@ -1,7 +1,6 @@
 body {
-  background-image: url("images/wood.jpg");
-  background-attachment: fixed;
   background-color: #d9d9d9;
+  background-image: url(images/wood.jpg);
 }
 h1 {
   text-align: center;
@@ -9,7 +8,7 @@ h1 {
 }
 h3 {
   text-align: center;
-  text-shadow: 5px 2px 12px #09f;
+  text-shadow: 5px 2px 12px yellow;
 }
 span {
   color: #06c;
@@ -40,8 +39,8 @@ div {
   background-color: white;
   font-family: "Times New Roman", Times, serif;
   font-size: 115%;
-  border: 3px solid gray;
-  border-style: groove;
+  border: 1px solid gray;
+  box-shadow: 5px 5px 10px black, inset 5px 5px 5px #888888;
 }
 #invis {
   margin: 30px 60px 10px 60px;
@@ -50,15 +49,35 @@ div {
   font-size: 115%;
   background-color: transparent;
   border-style: hidden;
+  box-shadow: none;
 }
 img {
   vertical-align: middle;
+  width: 50%;
   margin: auto;
   display: block;
 }
 #warning {
   color: red;
   background-color: black;
+}
+.round {
+    -webkit-border-radius: 24px;
+    border-radius: 24px;
+    border:1px solid gray;
+    background-color: gray;
+    color: white;
+    padding:25px;
+}
+.totalround {
+   width: 200px;
+   height: 200px;
+   border-radius: 100%;
+   background-color: green;
+   color: white;
+   text-align: center;
+   border:2px solid black;
+   box-shadow: 5px 5px 10px 10px #000000;
 }
 .first{font-size: 200%;}
 .second{font-size: 300%;}
@@ -72,4 +91,8 @@ color: green;
 }
 a:hover {
 text-shadow: 5px 2px 4px grey;
+}
+@font-face {
+  font-family: original;
+  src: url(font.otf)
 }
