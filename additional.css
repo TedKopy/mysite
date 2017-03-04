@@ -1,0 +1,44 @@
+body {
+  background-color: #d9d9d9;
+  background-image: url(images/brickwall.jpg);
+}
+div {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  margin: 30px 10px 10px 40px;
+  padding: 20px 20px 20px 20px;
+  background-color: white;
+  box-shadow: 5px 5px 10px black;
+  display: inline-block;
+  opacity: 0.5;
+  overflow: auto;
+}
+h1 {
+  text-align: center;
+  color: red;
+  text-shadow: 5px 5px 10px black;
+  opacity: 0.5;
+  font-size: 400%;
+}
+#red {
+  background-color: red;
+}
+#orange {
+  background-color: orange;
+}
+#yellow {
+  background-color: yellow;
+}
+#green {
+  background-color: green;
+}
+#skyblue {
+  background-color: skyblue;
+}
+#blue {
+  background-color: blue;
+}
+#violet {
+  background-color: violet;
+}
